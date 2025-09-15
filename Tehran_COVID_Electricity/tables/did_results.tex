@@ -1,0 +1,23 @@
+\begin{table}
+\centering
+\caption{DiD Estimates of the Impact of COVID-19 on Electricity Consumption \label{tab:did_results}}
+\centering
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lcccc}
+\toprule
+  & Total & Mid-Peak & Peak & Off-Peak\\
+\midrule
+Treated & \num{0.005} & \num{-0.001} & \num{0.020}* & \num{0.024}**\\
+ & (\num{0.016}) & (\num{0.015}) & (\num{0.009}) & (\num{0.009})\\
+Post & \num{-0.276}*** & \num{-0.285}*** & \num{-0.101}*** & \num{-0.057}***\\
+ & (\num{0.008}) & (\num{0.007}) & (\num{0.005}) & (\num{0.005})\\
+week & \num{0.029}*** & \num{0.030}*** & \num{0.010}*** & \num{0.007}***\\
+ & (\num{0.001}) & (\num{0.001}) & (\num{0.000}) & (\num{0.000})\\
+Treated × Post & \num{-0.128}*** & \num{-0.128}*** & \num{-0.065}*** & \num{-0.026}***\\
+ & (\num{0.010}) & (\num{0.010}) & (\num{0.006}) & (\num{0.006})\\
+\midrule
+Num.Obs. & \num{209300} & \num{209300} & \num{209300} & \num{209300}\\
+R2 & \num{0.880} & \num{0.874} & \num{0.930} & \num{0.938}\\
+\bottomrule
+\multicolumn{5}{l}{\rule{0pt}{1em}+ p $<$ 0.1, * p $<$ 0.05, ** p $<$ 0.01, *** p $<$ 0.001}\\
+\end{tabular*}
+\end{table}
