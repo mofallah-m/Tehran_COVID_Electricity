@@ -1,1 +1,0 @@
-# Tehran_COVID_Electricity
