@@ -1,0 +1,12 @@
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.aux
+*.log
+*.out
+*.toc
+data/*.RData
+Data/*.RData
+# macOS cruft
+.DS_Store
